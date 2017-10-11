@@ -2,3 +2,4 @@
 Learning to walk with genetic algorithms by optimizing a truncated Fourier series, applied to a realistic bio-mechanical model of the human body.
 
 It used the OpenSim environment for biomechanical simulations, modified for the NIPS 2017 "Learning to Run" competition.
+Here you can find their repository with a detailed introduction: https://github.com/stanfordnmbl/osim-rl.
