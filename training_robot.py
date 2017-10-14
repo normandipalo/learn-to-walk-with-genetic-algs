@@ -139,7 +139,6 @@ for i in range(500):
     if i>2:
         i-=2
         observation, reward, done, info = env.step(input(w_best,i))
-        reward-=1.38
         T=2
     else:
     # make a step given by the controller and record the state and the reward
@@ -180,7 +179,6 @@ for run in range(runs):
             T=2
             i-=2
             observation, reward, done, info = env.step(input(w_try,i))
-            reward-=1.38
         else:
     # make a step given by the controller and record the state and the reward
     
@@ -228,7 +226,6 @@ for i in range(500):
         i-=2
         T=2
         observation, reward, done, info = env.step(input(w_best,i))
-        reward-=1.38
     else:
     # make a step given by the controller and record the state and the reward
     
